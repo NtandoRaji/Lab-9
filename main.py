@@ -26,8 +26,8 @@ def main() -> None:
     optimized_file.write("input,time\n")
 
     # Define a range of input sizes from 4 to 15 (inclusive)
-    input_sizes = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-    
+    input_sizes = [4, 5, 6, 7, 8, 9, 10, 11, 12]
+
     for input_size in input_sizes:
         # Generate points for each input size by running the generate_points.py script
         run([python_exec, "generate_points.py", f"{input_size}", input_file])
