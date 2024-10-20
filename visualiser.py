@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
+# read file with given filename and get points
 def read_file(filename: str) -> np.ndarray:
     points = []
 
@@ -31,6 +32,7 @@ def main() -> None:
     plt.show()
 
 
+# Usage error function
 def usage(argv):
     print(f"[!] Usage: {argv[0]} <input file>")
     print(f"[!] Example Usage: {argv[0]} input.txt")

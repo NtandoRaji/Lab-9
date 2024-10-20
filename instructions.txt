@@ -3,34 +3,59 @@
 /////////////////////////
 
 [+] Run 'generate_points.py' file with arguments: <number of points> <output file>
+NB!:
+        This program will generate (2 ^ N) points with y, x values in the range [-100, 100].
+        You can change this by changing MAX_HEIGHT & MAX_WIDTH paramaters in lines 4 - 5
+        of the program.
 
 [->] Windows Example:
-        python .\generate_points.py 10 (2 ^ 10 points) output.txt
+        python generate_points.py 10 (2 ^ 10 points) output.csv
 
 [->] Linux Example:
-        python3 .\generate_points.py 10 (2 ^ 10 points) output.txt
+        python3 generate_points.py 10 (2 ^ 10 points) output.csv
 
 
-/////////////////////////
-/// Visualising Points //
-/////////////////////////
+////////////////////////////////////////////
+/// Visualising Randomly Generated Points //
+////////////////////////////////////////////
 
-[+] Run 'generate_points.py' file with arguments: <number of points> <output file>
+[+] Run 'visualier.py' file with arguments: <number of points> <input file>
 
 [->] Windows Example:
-        python .\generate_points.py 10 (2 ^ 10 points) output.txt
+        python generate_points.py 10 (2 ^ 10 points) input.csv
 
 [->] Linux Example:
-        python3 .\generate_points.py 10 (2 ^ 10 points) output.txt
+        python3 generate_points.py 10 (2 ^ 10 points) input.csv
 
 
 ////////////////////
 /// Running Code ///
 //////////////////// 
-[+] 
-  
-[+] 
+
+[+] Run 'closest_pair_algorithm.py' file with arguments: <input file>
+NB!:
+        This program runs both the Brute Force Closest Pair Algorithm & 
+        Optimized Closest Pair Algorithm on a single input size.
+
+[->] Windows Example:
+        python closest_pair_algorithm.py input.csv
+
+[->] Linux Example:
+        python3 closest_pair_algorithm.py input.csv
+
 
 ////////////////////////////////////////////
 /// Visualising Performace of Algorithms ///
 ////////////////////////////////////////////
+
+[+] Run 'main.py' and results will be found in the 'Lab9Experiment1.pdf' file
+NB!:
+        This program runs both the Brute Force Closest Pair Algorithm & 
+        Optimized Closest Pair Algorithm on a multiple input size and plots
+        the results in the 'Lab9Experiment1.pdf' file.
+
+[->] Windows Example:
+        python main.py
+
+[->] Linux Example:
+        python3 main.py
