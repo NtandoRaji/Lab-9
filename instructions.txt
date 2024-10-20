@@ -1,0 +1,36 @@
+/////////////////////////
+/// Generating Points ///
+/////////////////////////
+
+[+] Run 'generate_points.py' file with arguments: <number of points> <output file>
+
+[->] Windows Example:
+        python .\generate_points.py 10 (2 ^ 10 points) output.txt
+
+[->] Linux Example:
+        python3 .\generate_points.py 10 (2 ^ 10 points) output.txt
+
+
+/////////////////////////
+/// Visualising Points //
+/////////////////////////
+
+[+] Run 'generate_points.py' file with arguments: <number of points> <output file>
+
+[->] Windows Example:
+        python .\generate_points.py 10 (2 ^ 10 points) output.txt
+
+[->] Linux Example:
+        python3 .\generate_points.py 10 (2 ^ 10 points) output.txt
+
+
+////////////////////
+/// Running Code ///
+//////////////////// 
+[+] 
+  
+[+] 
+
+////////////////////////////////////////////
+/// Visualising Performace of Algorithms ///
+////////////////////////////////////////////
