@@ -20,6 +20,8 @@ NB!:
 ////////////////////////////////////////////
 
 [+] Run 'visualier.py' file with arguments: <number of points> <input file>
+NB!:
+        This program plots the generated points into the 'generate_points_plot.pdf' file.
 
 [->] Windows Example:
         python generate_points.py 10 (2 ^ 10 points) input.csv

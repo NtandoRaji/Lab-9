@@ -30,7 +30,9 @@ def main() -> None:
     plt.title("Randomly Generated Points")
     plt.xlabel("X")
     plt.ylabel("Y")
+    plt.savefig("generated_points_plot.pdf")
     plt.show()
+    plt.close()
 
 
 # Usage error function
