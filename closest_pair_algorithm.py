@@ -108,7 +108,7 @@ def optimized_CPA(points: List[Tuple[int, int]]) -> float:
     return solve(points, len(points))[0]
 
 
-def main():
+def main() -> None:
     argv, argc = sys.argv, len(sys.argv)
     if (argc != 2):
         usage(argv)
@@ -130,7 +130,7 @@ def main():
 
 
 # Usage error function
-def usage(argv):
+def usage(argv: List[str]) -> None:
     print(f"[!] Usage: {argv[0]} <input file>")
     print(f"[!] Example Usage: {argv[0]} input.csv")
     sys.exit()

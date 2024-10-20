@@ -2,6 +2,7 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 
+from typing import List
 
 # read file with given filename and get points
 def read_file(filename: str) -> np.ndarray:
@@ -33,9 +34,9 @@ def main() -> None:
 
 
 # Usage error function
-def usage(argv):
+def usage(argv: List[str]) -> None:
     print(f"[!] Usage: {argv[0]} <input file>")
-    print(f"[!] Example Usage: {argv[0]} input.txt")
+    print(f"[!] Example Usage: {argv[0]} input.csv")
     sys.exit()
 
 

@@ -1,18 +1,19 @@
 import sys
+from typing import List, Tuple
 from random import random
 
 # Parameters
-MAX_HEIGHT = 100
-MAX_WIDTH = 100
+MAX_HEIGHT = 1_000
+MAX_WIDTH = 1_000
 
 # Generate random point
-def generate_point():
+def generate_point() -> Tuple[int, int]:
     x = MAX_WIDTH * (random() * 2 - 1)
     y = MAX_HEIGHT * (random() * 2 - 1)
     return x, y
 
 
-def main():
+def main() -> None:
     argv, argc = sys.argv, len(sys.argv)
     if (argc != 3):
         usage(argv)
@@ -29,7 +30,7 @@ def main():
 
 
 # Usage error function
-def usage(argv):
+def usage(argv: List[str]) -> None:
     print(f"[!] Usage: python/python3 {argv[0]} <number of points> <output file>")
     print(f"[!] Example Usage: python/python3 {argv[0]} 10 (2^10 points) output.csv")
     sys.exit()

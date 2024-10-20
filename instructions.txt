@@ -4,7 +4,7 @@
 
 [+] Run 'generate_points.py' file with arguments: <number of points> <output file>
 NB!:
-        This program will generate (2 ^ N) points with y, x values in the range [-100, 100].
+        This program will generate (2 ^ N) points with y, x values in the range [-1000, 1000].
         You can change this by changing MAX_HEIGHT & MAX_WIDTH paramaters in lines 4 - 5
         of the program.
 
@@ -48,14 +48,14 @@ NB!:
 /// Visualising Performace of Algorithms ///
 ////////////////////////////////////////////
 
-[+] Run 'main.py' and results will be found in the 'Lab9Experiment1.pdf' file
+[+] Run 'main.py' file with arguments: <input file> and results will be found in the 'Lab9Experiment1.pdf' file
 NB!:
         This program runs both the Brute Force Closest Pair Algorithm & 
-        Optimized Closest Pair Algorithm on a multiple input size and plots
+        Optimized Closest Pair Algorithm on a multiple input size and plot
         the results in the 'Lab9Experiment1.pdf' file.
 
 [->] Windows Example:
-        python main.py
+        python main.py input.csv
 
 [->] Linux Example:
-        python3 main.py
+        python3 main.py input.csv
